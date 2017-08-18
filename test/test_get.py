@@ -1,5 +1,4 @@
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+def test_get_google(app):
 
-def test_get(app):
-    app.driver.get('https://google.com')
+    driver = app.driver
+    driver.get('https://google.com')
